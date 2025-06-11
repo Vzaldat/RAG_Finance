@@ -26,8 +26,6 @@ api_key = os.environ.get("GOOGLE_API_KEY")
 if not api_key:
     raise ValueError("GOOGLE_API_KEY environment variable is not set")
 
-os.environ["DATABRICKS_HOST"] = "https://adb-3718798521757669.9.azuredatabricks.net/serving-endpoints/"
-
 def load_and_process_csv(hist_data_and_news, holders):
   # data = pandas.read_csv(file_path)
   data = hist_data_and_news.toPandas()
