@@ -204,21 +204,58 @@ Finnhub     Storage     Validation     Ready       Vector   LangChain
 4. **Market Analysis**: "How did the Fed announcement affect bank stocks?"
 5. **Portfolio Optimization**: "Suggest a balanced portfolio based on current market conditions"
 
-## UI 
-The UI was made in streamlit
-Future plans to deploy this working webpage in integration with data coming from databricks
+Below is a more polished and descriptive section of your README to highlight the Streamlit UI, how it works, and the future integration plans.
 
-![UI png](https://github.com/user-attachments/assets/caed6ed4-d8bc-4c16-8815-f6f079506c0f)
+--------------------------------------------------------------------------------
 
-UI Page, without prompts and response
+## User Interface (UI)
 
-![OnlyPrompt png](https://github.com/user-attachments/assets/f9a52fe8-4588-425c-87c0-ed226f0ef211)
+This application’s user interface (UI) is built with [Streamlit](https://streamlit.io/). It offers a simple yet powerful way to interact with the model without needing any specialized local setup.
 
-Chat overlay with message
+### Future Integration
 
-![withPrompt png](https://github.com/user-attachments/assets/90323d38-c883-4dad-800d-b6a256a8375e)
+• The current version of the UI works independently for demonstration purposes.  
+• In the near future, the app will be integrated with [Databricks](https://www.databricks.com/) to fetch and process live data, providing even more dynamic and robust functionality.
 
-UI Page, with only prompt in the chatbox
+## UI Overview
 
-![Response png](https://github.com/user-attachments/assets/39a0ba32-fbb0-43ff-8964-649efc81bec8)
-UI Page, with prompt and response of the model
+Below are screenshots that show various stages of interaction with the UI:
+
+1. **UI Page (No Input or Response)**  
+   This displays the application layout before any user prompts or model responses have been entered.  
+   ![UI Page without prompts and responses](https://github.com/user-attachments/assets/caed6ed4-d8bc-4c16-8815-f6f079506c0f)
+
+2. **Chat Overlay with Message**  
+   Demonstrates how the chat overlay appears after the user has submitted a prompt.  
+   ![Chat overlay with message](https://github.com/user-attachments/assets/f9a52fe8-4588-425c-87c0-ed226f0ef211)
+
+3. **UI Page (Only Prompt in Chatbox)**  
+   Showcases the interface after the user has provided a prompt but before the model’s response appears.  
+   ![UI page with only prompt](https://github.com/user-attachments/assets/90323d38-c883-4dad-800d-b6a256a8375e)
+
+4. **UI Page (Prompt and Model Response)**  
+   Highlights the final interface when both the user’s prompt and the model’s response are displayed.  
+   ![UI page with prompt and response](https://github.com/user-attachments/assets/39a0ba32-fbb0-43ff-8964-649efc81bec8)
+
+--------------------------------------------------------------------------------
+
+## Getting Started
+
+1. **Install Dependencies**:  
+   Ensure you have Python 3.8+ installed. Install dependencies in a virtual environment:  
+   ```
+   pip install streamlit
+   ```
+   
+2. **Run the Application**:  
+   In your terminal or command prompt, run:
+   ```
+   streamlit run app.py
+   ```
+   This will open a local Streamlit server and show the UI in your browser.
+
+3. **Interact with the Model**:  
+   Enter your prompt in the chatbox on the UI. You’ll see the model’s response displayed underneath.
+
+
+--------------------------------------------------------------------------------
