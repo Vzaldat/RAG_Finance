@@ -191,7 +191,7 @@ Finnhub     Storage     Validation     Ready       Vector   LangChain
 -  **Multi-modal RAG**: Charts and graphs in responses
 -  **Conversation Memory**: Multi-turn dialogue support  
 -  **Custom Financial Metrics**: Sharpe ratio, Beta, VaR calculations
--  **Portfolio Analysis**: Multi-stock portfolio optimization
+**Portfolio Analysis**: Multi-stock portfolio optimization
 -  **Sentiment Analysis**: News sentiment scoring
 -  **Options Data**: Volatility surface analysis
 
@@ -204,3 +204,10 @@ Finnhub     Storage     Validation     Ready       Vector   LangChain
 4. **Market Analysis**: "How did the Fed announcement affect bank stocks?"
 5. **Portfolio Optimization**: "Suggest a balanced portfolio based on current market conditions"
 
+## UI 
+The UI was made in streamlit
+Future plans to deploy this working webpage in integration with data coming from databricks
+![UI png](https://github.com/user-attachments/assets/caed6ed4-d8bc-4c16-8815-f6f079506c0f)
+![OnlyPrompt png](https://github.com/user-attachments/assets/f9a52fe8-4588-425c-87c0-ed226f0ef211)
+![withPrompt png](https://github.com/user-attachments/assets/90323d38-c883-4dad-800d-b6a256a8375e)
+![Response png](https://github.com/user-attachments/assets/39a0ba32-fbb0-43ff-8964-649efc81bec8)
