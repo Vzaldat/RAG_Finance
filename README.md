@@ -7,6 +7,45 @@ This project implements a comprehensive stock market data pipeline using the Med
 
 ![image](https://github.com/user-attachments/assets/1bc51bf7-a30b-4d70-8f6f-45a5d320e2e7)
 
+## UI Overview
+
+Below are screenshots that show various stages of interaction with the UI:
+
+1. **UI Page (No Input or Response)**  
+   This displays the application layout before any user prompts or model responses have been entered.  
+   ![UI Page without prompts and responses](https://github.com/user-attachments/assets/caed6ed4-d8bc-4c16-8815-f6f079506c0f)
+
+2. **Chat Overlay with Message**  
+   Demonstrates how the chat overlay appears after the user has submitted a prompt.  
+   ![Chat overlay with message](https://github.com/user-attachments/assets/f9a52fe8-4588-425c-87c0-ed226f0ef211)
+
+3. **UI Page (Only Prompt in Chatbox)**  
+   Showcases the interface after the user has provided a prompt but before the model’s response appears.  
+   ![UI page with only prompt](https://github.com/user-attachments/assets/90323d38-c883-4dad-800d-b6a256a8375e)
+
+4. **UI Page (Prompt and Model Response)**  
+   Highlights the final interface when both the user’s prompt and the model’s response are displayed.  
+   ![UI page with prompt and response](https://github.com/user-attachments/assets/39a0ba32-fbb0-43ff-8964-649efc81bec8)
+
+--------------------------------------------------------------------------------
+
+## Getting Started
+
+1. **Install Dependencies**:  
+   Ensure you have Python 3.8+ installed. Install dependencies in a virtual environment:  
+   ```
+   pip install streamlit
+   ```
+   
+2. **Run the Application**:  
+   In your terminal or command prompt, run:
+   ```
+   streamlit run app.py
+   ```
+   This will open a local Streamlit server and show the UI in your browser.
+
+--------------------------------------------------------------------------------
+
 ##  Architecture
 
 ```
@@ -217,42 +256,7 @@ This application’s user interface (UI) is built with [Streamlit](https://strea
 • The current version of the UI works independently for demonstration purposes.  
 • In the near future, the app will be integrated with [Databricks](https://www.databricks.com/) to fetch and process live data, providing even more dynamic and robust functionality.
 
-## UI Overview
 
-Below are screenshots that show various stages of interaction with the UI:
-
-1. **UI Page (No Input or Response)**  
-   This displays the application layout before any user prompts or model responses have been entered.  
-   ![UI Page without prompts and responses](https://github.com/user-attachments/assets/caed6ed4-d8bc-4c16-8815-f6f079506c0f)
-
-2. **Chat Overlay with Message**  
-   Demonstrates how the chat overlay appears after the user has submitted a prompt.  
-   ![Chat overlay with message](https://github.com/user-attachments/assets/f9a52fe8-4588-425c-87c0-ed226f0ef211)
-
-3. **UI Page (Only Prompt in Chatbox)**  
-   Showcases the interface after the user has provided a prompt but before the model’s response appears.  
-   ![UI page with only prompt](https://github.com/user-attachments/assets/90323d38-c883-4dad-800d-b6a256a8375e)
-
-4. **UI Page (Prompt and Model Response)**  
-   Highlights the final interface when both the user’s prompt and the model’s response are displayed.  
-   ![UI page with prompt and response](https://github.com/user-attachments/assets/39a0ba32-fbb0-43ff-8964-649efc81bec8)
-
---------------------------------------------------------------------------------
-
-## Getting Started
-
-1. **Install Dependencies**:  
-   Ensure you have Python 3.8+ installed. Install dependencies in a virtual environment:  
-   ```
-   pip install streamlit
-   ```
-   
-2. **Run the Application**:  
-   In your terminal or command prompt, run:
-   ```
-   streamlit run app.py
-   ```
-   This will open a local Streamlit server and show the UI in your browser.
 
 3. **Interact with the Model**:  
    Enter your prompt in the chatbox on the UI. You’ll see the model’s response displayed underneath.
