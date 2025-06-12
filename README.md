@@ -207,7 +207,18 @@ Finnhub     Storage     Validation     Ready       Vector   LangChain
 ## UI 
 The UI was made in streamlit
 Future plans to deploy this working webpage in integration with data coming from databricks
+
 ![UI png](https://github.com/user-attachments/assets/caed6ed4-d8bc-4c16-8815-f6f079506c0f)
+
+UI Page, without prompts and response
+
 ![OnlyPrompt png](https://github.com/user-attachments/assets/f9a52fe8-4588-425c-87c0-ed226f0ef211)
+
+Chat overlay with message
+
 ![withPrompt png](https://github.com/user-attachments/assets/90323d38-c883-4dad-800d-b6a256a8375e)
+
+UI Page, with only prompt in the chatbox
+
 ![Response png](https://github.com/user-attachments/assets/39a0ba32-fbb0-43ff-8964-649efc81bec8)
+UI Page, with prompt and response of the model
